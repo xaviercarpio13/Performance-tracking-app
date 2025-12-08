@@ -2,26 +2,27 @@
   <img src="frontend/src/assets/Logo.png" alt="Logo de SYNCADEMIC" width="700px"/>
 </p>
 
-¡Bienvenido a SYNCADEMIC! 🎓🚀
+¡Welcome to SYNCADEMIC! 🎓🚀
+Syncademic is a full-stack web application designed to analyze and manage academic performance for students and teachers.
+Built collaboratively by a 24-person development team, the platform uses Django REST Framework on the backend and React + TypeScript on the frontend, following a Behavior-Driven Development (BDD) approach with Behave and Gherkin for automated testing.
 
-SYNCADEMIC es una innovadora aplicación web diseñada para la gestión académica, desarrollada con una robusta arquitectura de frontend y backend.
+## Overview
 
-## Descripción
+Syncademic provides actionable academic insights such as:
+- 🌞 Identifying students eligible for summer reinforcement courses
+- 📉 Detecting students with low academic performance
+- 🕒 Notifying pending teaching hours or incomplete schedules
+- 🧑‍🏫 Suggesting optimal teaching assignments based on subject expertise
+- 🚩 Predicting potential student dropout risk based on attendance patterns
 
-SYNCADEMIC es una aplicación orientada al seguimiento del rendimiendo tanto de estudiantes como de docentes permitiendo realizar actividades como:
-- 🌞Identificar estudiantes que necesiten un curso de verano🌞
-- 📖Identificar estudiantes con bajas calificaciones📖
-- 🕥Notificar la carga horaria atrasada de un docente🕥
-- 🖊️Realizar sugerencias para la planificación, tomando en consideración docentes con mayor afinidad a una asignatura🖊️
-- 🏃Identificar aquellos estudiantes con posible tasa de abandono en base a su asistencia🏃
-- ¡y más!
+And more features designed to streamline academic decision-making.
 
-## Nuestro equipo de desarrollo
+## Development Team
 <p align="center">
   <img src="frontend/src/assets/EquipoDeDesarrollo.png" alt="Equipo de desarrollo" width="500px"/>
 </p>
 
-## Tecnologías Utilizadas
+## Tech Stack
 
 ### Backend
 - Python ![Python](https://img.shields.io/badge/Python-3.10-blue.svg)
@@ -43,105 +44,50 @@ SYNCADEMIC es una aplicación orientada al seguimiento del rendimiendo tanto de 
 
 ---
 
-## Instalación y Ejecución del Proyecto
+## Running the Application
 
-### Requisitos Previos
-
-1. **Node.js y pnpm**
-   - Asegúrate de tener Node.js instalado. Puedes descargarlo desde [aquí](https://nodejs.org/).
-   - Instala pnpm (un gestor de paquetes rápido y eficiente) globalmente:
-     ```sh
-     npm install -g pnpm
-     ```
-   - Activar pnpm (ejecutar terminal como administrador)
-     ```sh
-     corepack enable pnpm
-     ```
-
-
-2. **Python y Django**
-   - Asegúrate de tener Python instalado. Puedes descargarlo desde [aquí](https://www.python.org/).
-   - Instala un IDE de confianza, sugerimos Pycharm (publicidad no pagada)
-
-### Configuración del Frontend
-
-1. Clona el repositorio:
-```sh
-git clone https://github.com/tu-usuario/syncademic.git
-```
-
-2. Navega al directorio del frontend:
+### Frontend Setup
 
 ```sh
+git clone https://github.com/xaviercarpio13/Performance-tracking-app
 cd /frontend
-```
-
-3. Instala las dependencias:
-
-```sh
 pnpm install
-```
-
-4. Ejecuta el proyecto en modo de desarrollo:
-
-```sh
 pnpm run dev
 ```
 
-### Configuración del Backend
-
-1. Clona el repositorio:
-```sh
-git clone https://github.com/tu-usuario/syncademic.git
-```
-
-2. Navega al directorio del backend:
+### Backend Setup
 
 ```sh
+git clone https://github.com/xaviercarpio13/Performance-tracking-app
 cd /backend
-```
-
-3. Instala las dependencias:
-
-```sh
 pip install -r requirements.txt
-```
-
-4. Realiza las migraciones:
-
-```sh
 python manage.py makemigrations
 python manage.py migrate
-```
-
-5. Ejecuta el servidor:
-
-```sh
 python manage.py runserver
 ```
 
-## Contribuir
-¡Las contribuciones son bienvenidas! Si deseas mejorar SYNCADEMIC, por favor sigue estos pasos:
+## Contributing
+Contributions are welcome, if you'd like to contribute to SYNCADEMIC:
 
-1. Haz un fork del proyecto.
-2. Crea una nueva rama 
+1. Create a fork of the currently repository
+2. Create a new branch
 ```sh
-git checkout -b feature/nueva-funcionalidad
+git checkout -b feature/new-feature
 ```
-3. Realiza tus cambios y haz commit 
+3. Make changes and commit them
 ```sh
-git commit -m 'feat: agrega nueva funcionalidad'
+git commit -m 'feat: description of the new functonality'
 ```
-4. Haz push a la rama 
+4. Push
 ```sh
-git push origin feature/nueva-funcionalidad
+git push origin feature/new-feature
 ```
-5. Crea un nuevo Pull Request.
+5. Create a Pull Request
 
-## Contribuidores
+## Contributors
 
 <img style="width:100%;" src="https://contrib.rocks/image?repo=SebastianJimenez2/Performance-tracking-app">
 
 ---
 
-¡Gracias por usar SYNCADEMIC! Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactar a los mantenedores del proyecto.
+Thank you for using SYNCADEMIC! If you have questions, suggestions, or improvements, feel free to open an issue or reach out.
